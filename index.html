@@ -1,29 +1,50 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Portfólio — Wilson Johne</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <h1>Wilson johne</h1>
-        <p>Fazendo sua presensa online</p>
+        <h1>Wilson Johne</h1>
+        <p class="subtitle">Fazendo sua presença online</p>
         <nav>
-            <a href="">github</a>
+            <a href="#" aria-label="GitHub">GitHub</a>
+            <a href="#" aria-label="Contato">Contato</a>
         </nav>
     </header>
     <main>
-        <section>
-            <h1>Projetos</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quod architecto reprehenderit est excepturi temporibus illo eum! Deleniti atque quae tenetur quaerat, voluptates nobis, vel rem fuga quia culpa possimus? Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae repellendus cum quos itaque. Nemo laborum architecto veniam saepe quisquam. Eos, voluptatem rem molestias fugiat necessitatibus itaque repudiandae est similique ex.</p>
+        <section class="reveal" id="projetos">
+            <h2 class="section-title">Projetos</h2>
+            <div class="projects">
+                <a class="card" href="https://github.com/seu-usuario/app-tarefas" target="_blank" rel="noopener noreferrer">
+                    <div class="kicker">Projeto</div>
+                    <h3>App de Tarefas</h3>
+                    <p>Pequeno app React para organizar atividades com autenticação.</p>
+                </a>
+                <a class="card" href="https://github.com/seu-usuario/site-institucional" target="_blank" rel="noopener noreferrer">
+                    <div class="kicker">Projeto</div>
+                    <h3>Site Institucional</h3>
+                    <p>Layout responsivo com foco em performance e acessibilidade.</p>
+                </a>
+                <a class="card" href="https://github.com/seu-usuario/outro-projeto" target="_blank" rel="noopener noreferrer">
+                    <div class="kicker">Projeto</div>
+                    <h3>Projeto Exemplo</h3>
+                    <p>Descrição curta do projeto.</p>
+                </a>
+                <!-- adicione mais cards conforme precisar -->
+            </div>
         </section>
-        <section>
-            <h1>Certificados</h1>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt perferendis harum id excepturi? Mollitia suscipit repellendus porro sint consectetur optio. Fuga eos, delectus ex laudantium sit recusandae saepe. Minima, inventore?</p>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur laborum possimus aliquam aperiam magnam. Deleniti dolorem velit quisquam pariatur vero illum delectus beatae aperiam quos aspernatur. Optio, aliquam. Ex, id! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis placeat dicta ducimus mollitia. Dolore architecto quae, fugit iure reiciendis veritatis, eum nobis enim id, quis porro nostrum blanditiis atque sit!</p>
+
+        <section class="reveal" id="certificados">
+            <h2 class="section-title">Sobre mim</h2>
+            <p>Desenvolvedor web autodidata, com foco em criar soluções eficientes e intuitivas. Aprendi programação por conta própria e sigo evoluindo em cada projeto. Curioso por natureza, gosto de entender o funcionamento das coisas e transformar código em impacto real..</p>
+           
         </section>
     </main>
+
+    <script src="script.js" defer></script>
 </body>
 </html>
