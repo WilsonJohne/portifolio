@@ -1,0 +1,43 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+:root {
+  --cor-primaria: #dc2626;    /* vermelho forte */
+  --cor-secundaria: #facc15;  /* amarelo dourado */
+  --cor-fundo: #111827;       /* fundo grafite */
+  --cor-texto: #f9fafb;       /* texto claro */
+  --cor-texto-secundario: #d1d5db; /* cinza leve */
+  --cor-borda: #374151;       /* divisões */
+}
+
+body{
+    font-family: "Oswald", sans-serif;
+    background-color: var(--cor-fundo);
+    color: var(--cor-texto);
+    
+}
+header{
+    margin: auto;
+    text-align: center;
+    
+}
+main{
+    
+    max-width: 800px;
+    margin: auto;
+    text-align: justify;
+    padding: 20px;
+}
+h1 {
+    text-align: center;
+    transition: color 0.3s, 
+    transform 3s;
+}
+h1:hover {
+    color: var(--cor-primaria);
+    transform: scale(1.05);
+}
